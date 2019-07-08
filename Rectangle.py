@@ -31,9 +31,10 @@ class Rectangle:
                 + " and height is " + str(self.__height)
 
 
-r = Rectangle("red", 3, 15)
-r2 = Rectangle("Green", 5, 12)
-r3 = r +r2
-print(r)
-print(r2)
-print(r3)
+if __name__ == '__main__':
+    r = Rectangle("red", 3, 15)
+    r2 = Rectangle("Green", 5, 12)
+    r3 = r +r2
+    print(r)
+    print(r2)
+    print(r3)
